@@ -21,7 +21,7 @@ class CardsPage extends StatelessWidget {
           itemBuilder: (context, index) {
             return GestureDetector(
               onTap: () {
-                ModalBottoomSheets(context: context);
+                ModalBottoomSheets(context: context,index: index);
               },
               child: SizedBox(
                 height: 150,
