@@ -6,7 +6,7 @@ class Providers with ChangeNotifier {
   double percentValue=0.3;
 
   void setDetails() {
-    _fireService.addDetails();
+   // _fireService.addDetails();
     notifyListeners();
   }
 

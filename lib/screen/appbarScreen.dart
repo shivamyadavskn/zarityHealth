@@ -41,7 +41,7 @@ AppBar appBarScreen(BuildContext context) {
     actions: [
       IconButton(
           onPressed: () {
-            fireService.addDetails();
+           // fireService.addDetails();
           },
           icon: const Icon(
             Icons.message,
